@@ -1,7 +1,8 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin: 40px;
-  background-color: #f8f8f8;
+  background: linear-gradient(135deg, #f5f7fa, #e4e7eb);
+  color: #333;
 }
 
 header nav {
@@ -123,4 +124,9 @@ h3 {
   .menu-grid {
     grid-template-columns: 1fr;
   }
+}
+h1 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
